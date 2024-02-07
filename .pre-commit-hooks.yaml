@@ -1,0 +1,8 @@
+- id: dennis
+  name: dennis
+  description: "Dennis checks translations"
+  entry: dennis-cmd
+  language: python
+  minimum_pre_commit_version: 2.9.2
+  require_serial: false
+  types_or: [python, pyi]
