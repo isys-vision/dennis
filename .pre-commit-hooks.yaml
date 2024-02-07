@@ -5,4 +5,6 @@
   language: python
   minimum_pre_commit_version: 2.9.2
   require_serial: false
+  args: ['lint', '--excluderules', 'E102,E103']
+  files: .po
   types_or: [python, pyi]
